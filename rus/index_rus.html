@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Конвертер, нижний регистр, ВЕРХНИЙ РЕГИСТР, Заглавные Буквы"/>
+    <meta name="keywords" content="ИЗМЕНИТЬ РЕГИСТР, нижний, ВЕРХНИЙ, Заглавные Буквы, Арсен Назарян"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta property="og:image" content="img/og.jpg"/>
+    <!-- apple-touch-icon and favicon -->
+    <link rel="shortcut icon" href="../img/icon/favicon-32.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/icon/favicon-57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/icon/favicon-72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/icon/favicon-114.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Конвертер</title>
+</head>
+<body>
+<div class="container-fluid content main-block">
+    <header class="head">
+        <div class="lang">
+            <div class="dib-pos">
+                <a href="../index.html" id="eng">ENG</a>
+            </div>
+            <div class="dib-pos">
+                <a href="index_rus.html" id="rus">РУС</a>
+            </div>
+            <div class="dib-pos">
+                <a href="../arm/index_arm.html" id="arm">ՀԱՅ</a>
+            </div>
+        </div>
+        <div class="logo"><a class="logo-link" href="index_rus.html"><img src="../img/logo.png" alt="Logo"></a></div>
+        <div class="convert">
+            <form action="#" method="get" id="convert">
+                <div class="text-group">
+                    <textarea id="befor" class="box" placeholder="Введите или Вставьте Текст для Преобразования Регистра"></textarea>
+                    <div class="dropdown dropdown-change">
+                        <button class="btn btn-success dropdown-toggle change" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ИЗМЕНИТЬ РЕГИСТР
+                        </button>
+                        <div class="dropdown-menu show-hide change-list" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">нижний регистр</a>
+                            <a class="dropdown-item" href="#">ВЕРХНИЙ РЕГИСТР</a>
+                            <a class="dropdown-item" href="#">Заглавные Буквы</a>
+                        </div>
+                    </div>
+                    <textarea id="after" class="box"></textarea>
+                </div>
+            </form>
+        </div>
+    </header>
+</div>
+<footer>
+    <div class="text-center text-muted copyright-part">
+        <p>&copy; All rights reserved - 2019 | <a class="go" href="https://arsen-nazaryan.github.io/"
+                                                  title="Arsen Nazaryan's Portfolio" target="_blank">Arsen Nazaryan</a>
+        </p>
+        <p>Created with <span class="heart">&hearts;</span></p>
+    </div>
+</footer>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
